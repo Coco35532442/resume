@@ -48,6 +48,18 @@ table {
 }
 
 /* my style */
+body{
+    font-family: SF Pro Text,PingFang TC,sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 .container{
     width: 1200px;
@@ -58,6 +70,7 @@ table {
     font-size: 24px;
     line-height: 29px;
     margin-left: 16px;
+    font-weight: 600;
 }
 .border-bottom-2{
     border-bottom: 2px solid #000;
@@ -71,12 +84,17 @@ table {
 .border-left{
     border-left: 1px solid #96A9C4;
 }
-
 .bg-gray{
     background: #415165;
 }
 .text-white{
     color: #fff;
+}
+.font-weight-300{
+    font-weight: 300;
+}
+.font-weight-medium{
+    font-weight: 500;
 }
 .font-80{
     font-size: 80px;
@@ -86,11 +104,11 @@ table {
 }
 .font-24{
     font-size: 24px;
-    line-height: 36px;
+    /* line-height: 36px; */
 }
 .font-20{
     font-size: 20px;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 .lh-95{
     line-height: 95px;
@@ -112,6 +130,9 @@ table {
 }
 .mt-24{
     margin-top: 24px;
+}
+.mt-20{
+    margin-top: 20px;
 }
 .mt-16{
     margin-top: 16px;
@@ -137,12 +158,16 @@ table {
 .pl-24{
     padding-left: 24px;
 }
-.text-align-center{
-    text-align: center;
-}
+
 .w-996{
     width: 996px;
 }
+.w-642{
+    width: 642px;
+}
 .center{
     margin: 0 auto;
+}
+.text-align-center{
+    text-align: center;
 }
